@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   actions: {
     chamberLookup() {
-      debugger;
+      // debugger;
       var params = {
         chamber: this.get('chamber')
       };
