@@ -1,0 +1,9 @@
+<h2>{{committee.chamber}} Committee Results:</h2>
+<ul>
+  {{#each model as |committee|}}
+    <li>
+      <strong>{{committee.chamber}}</strong><br>
+      Name: {{committee.name}}
+    </li>
+  {{/each}}
+</ul>

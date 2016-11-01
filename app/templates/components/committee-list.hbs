@@ -1,0 +1,16 @@
+<h2>Committee List</h2>
+<h5>Type either House or Senate</h5>
+
+<form>
+  <div class="form-group">
+    <label for="chamber">Chamber</label>
+    {{input value=chamber id="chamber"}}
+    <!-- <select class="form-control">
+      <option>House</option>
+      <option>Senate</option>
+    </select> -->
+  </div>
+
+  <button class="btn btn-primary" {{action 'chamberLookup'}}>Submit</button>
+
+</form>
