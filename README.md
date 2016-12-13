@@ -1,7 +1,6 @@
 # Enlightened-citizenry
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Practice with APIs. This application allows you to look up legislators in your area.
 
 ## Prerequisites
 
